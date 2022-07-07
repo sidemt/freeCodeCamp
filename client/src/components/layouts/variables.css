@@ -28,6 +28,8 @@
   --love-dark: #f82153;
   --editor-background-light: #fffffe;
   --editor-background-dark: #2a2b40;
+  --font-sans-serif: 'Lato', sans-serif;
+  --font-monospace: 'Roboto Mono', monospace;
 }
 
 .dark-palette {

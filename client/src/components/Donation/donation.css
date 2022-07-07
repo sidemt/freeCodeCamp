@@ -247,7 +247,7 @@ li.disabled > a {
 .donate-page-wrapper h3,
 .donate-page-wrapper p,
 [name='payment-method'] {
-  font-family: 'Lato', sans-serif;
+  font-family: var(--font-sans-serif);
 }
 
 @media (max-width: 400px) {
@@ -279,7 +279,7 @@ li.disabled > a {
 }
 
 .donation-modal {
-  font-family: 'Lato', sans-serif;
+  font-family: var(--font-sans-serif);
 }
 
 .donation-modal .btn-link:focus {
@@ -489,7 +489,7 @@ a.patreon-button:hover {
 }
 
 .form-status p {
-  font-family: 'Lato', sans-serif;
+  font-family: var(--font-sans-serif);
   font-size: 16px;
   color: #eb1c26;
   text-align: left;

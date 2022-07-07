@@ -31,7 +31,7 @@
 }
 
 .certification-namespace.certificate-wrapper {
-  font-family: 'Sax Mono', monospace;
+  font-family: var(--font-monospace);
 }
 
 /* center the certificate vertically */
@@ -67,7 +67,7 @@
 
 .certificate-outer-wrapper .donation-section,
 .certificate-outer-wrapper .donation-section p {
-  font-family: 'Lato', sans-serif;
+  font-family: var(--font-sans-serif);
 }
 
 .certification-namespace header {

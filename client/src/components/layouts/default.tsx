@@ -11,6 +11,20 @@ import latoRegularURL from '../../../static/fonts/lato/Lato-Regular.woff';
 import robotoBoldURL from '../../../static/fonts/roboto-mono/RobotoMono-Bold.woff';
 import robotoItalicURL from '../../../static/fonts/roboto-mono/RobotoMono-Italic.woff';
 import robotoRegularURL from '../../../static/fonts/roboto-mono/RobotoMono-Regular.woff';
+
+// load language settings
+// import envData from '../../../../config/env.json';
+// import { getLangCode } from '../../../../config/i18n/all-langs';
+
+// const { clientLocale } = envData;
+// const localeCode = getLangCode(clientLocale);
+
+import sansSerifBoldURL from '../../../static/fonts/noto-sans-jp/noto-sans-jp-v42-japanese-700.woff';
+import sansSerifLightURL from '../../../static/fonts/noto-sans-jp/noto-sans-jp-v42-japanese-300.woff';
+import sansSerifRegularURL from '../../../static/fonts/noto-sans-jp/noto-sans-jp-v42-japanese-regular.woff';
+import monoBoldURL from '../../../static/fonts/noto-sans-mono-cjk-jp/NotoSansMonoCJKjp-Bold.woff';
+import monoRegularURL from '../../../static/fonts/noto-sans-mono-cjk-jp/NotoSansMonoCJKjp-Regular.woff';
+
 import { isBrowser } from '../../../utils';
 import {
   fetchUser,
@@ -35,6 +49,8 @@ import OfflineWarning from '../OfflineWarning';
 import './fonts.css';
 import './global.css';
 import './variables.css';
+
+import './variables-ja.css';
 
 const mapStateToProps = createSelector(
   isSignedInSelector,
@@ -192,6 +208,42 @@ class DefaultLayout extends Component<DefaultLayoutProps> {
             as='font'
             crossOrigin='anonymous'
             href={robotoItalicURL}
+            rel='preload'
+            type='font/woff'
+          />
+
+          <link
+            as='font'
+            crossOrigin='anonymous'
+            href={sansSerifRegularURL}
+            rel='preload'
+            type='font/woff'
+          />
+          <link
+            as='font'
+            crossOrigin='anonymous'
+            href={sansSerifLightURL}
+            rel='preload'
+            type='font/woff'
+          />
+          <link
+            as='font'
+            crossOrigin='anonymous'
+            href={sansSerifBoldURL}
+            rel='preload'
+            type='font/woff'
+          />
+          <link
+            as='font'
+            crossOrigin='anonymous'
+            href={monoBoldURL}
+            rel='preload'
+            type='font/woff'
+          />
+          <link
+            as='font'
+            crossOrigin='anonymous'
+            href={monoRegularURL}
             rel='preload'
             type='font/woff'
           />

@@ -1,5 +1,5 @@
 .ca-description {
-  font-family: 'Lato', sans-serif;
+  font-family: var(--font-sans-serif);
 }
 
 .ca-btn-padding {

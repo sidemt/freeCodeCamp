@@ -66,3 +66,69 @@
   font-style: normal;
   font-display: fallback;
 }
+
+/* Noto Sans Japanese */
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url('../../../static/fonts/noto-sans-jp/noto-sans-jp-v42-japanese-300.woff')
+    format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url('../../../static/fonts/noto-sans-jp/noto-sans-jp-v42-japanese-regular.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+/* @font-face {
+  font-family: 'Noto Sans JP';
+  src: url('../../../static/fonts/noto-sans-jp/NotoSansJP-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: fallback;
+} */
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url('../../../static/fonts/noto-sans-jp/noto-sans-jp-v42-japanese-700.woff')
+    format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url('../../../static/fonts/noto-sans-jp/noto-sans-jp-v42-japanese-900.woff')
+    format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: fallback;
+}
+
+/* Noto Sans Mono CJK JP  */
+
+@font-face {
+  font-family: 'Noto Sans Mono CJK JP';
+  src: url('../../../static/fonts/noto-sans-mono-cjk-jp/NotoSansMonoCJKjp-Regular.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Noto Sans Mono CJK JP';
+  src: url('../../../static/fonts/noto-sans-mono-cjk-jp/NotoSansMonoCJKjp-Bold.woff')
+    format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}

@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: flex-start;
   font-size: 18px;
-  font-family: 'Lato', sans-serif;
+  font-family: var(--font-sans-serif);
   height: var(--header-height);
   background: var(--theme-color);
   position: fixed;
@@ -320,7 +320,7 @@ button.nav-link[aria-disabled='true'] {
 .toggle-button-nav {
   padding: 2px 14px;
   border: 1px solid var(--gray-00);
-  font-family: 'lato', sans-serif;
+  font-family: var(--font-sans-serif);
   font-size: 18px;
   color: var(--gray-00);
   background-color: var(--theme-color);
@@ -431,7 +431,7 @@ button.nav-link[aria-disabled='true'] {
   max-height: calc(var(--header-height) - 6px);
   padding: 4px 12px;
   margin-left: 2px;
-  font-family: 'Roboto Mono', monospace !important;
+  font-family: var(--font-monospace) !important;
   display: flex;
   align-items: center;
   justify-content: center;
